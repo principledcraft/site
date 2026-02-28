@@ -1,17 +1,39 @@
 ---
-title: My Site
-toc: false
+title: Hextra Theme
+layout: hextra-home
 ---
 
-This is the landing page.
+<div class="hx:mt-6 hx:mb-6">
+{{< hextra/hero-headline >}}
+  // principled craft .dev
+{{< /hextra/hero-headline >}}
+</div>
 
-## Explore
+<div class="hx:mb-12">
+{{< hextra/hero-subtitle >}}
+  Principles, opinions, and resources for effective software engineering.
+{{< /hextra/hero-subtitle >}}
+</div>
 
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
+<div class="hx:mt-6"></div>
 
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="Principles"
+    subtitle="Why simplicity matters, what poor quality really costs, and how to keep software maintainable and testable over time.<br><br><span class='card-cta'>Explore the principles &rarr;</span>"
+    icon="light-bulb"
+    link="principles"
+  >}}
+  {{< hextra/feature-card
+    title="Books"
+    subtitle="Books on software engineering that shaped how I think about the craft.<br><br><span class='card-cta'>Browse the bookshelf &rarr;</span>"
+    icon="book-open"
+    link="books"
+  >}}
+  {{< hextra/feature-card
+    title="Blog"
+    subtitle="Occasional posts on software engineering, learning, and the principles behind this site.<br><br><span class='card-cta'>Read the blog &rarr;</span>"
+    icon="pencil"
+    link="blog"
+  >}}
+{{< /hextra/feature-grid >}}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;   
+}
+
+.hx\:font-extrabold {
+  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+
+.book-card {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.book-card img {
+  height: 238px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.book-card .book-meta {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.125rem;
+  margin-top: 2rem;
+}
+
+.book-grid a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  max-width: 110px;
+}
+
+.book-grid a:hover {
+  opacity: 0.8;
+}
+
+/* Footer */
+.hextra-footer {
+  background-color: #f3f4f6 !important;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  border-top: 1px solid #e5e7eb;
+}
+
+:is(html[class~="dark"]) .hextra-footer {
+  background-color: rgb(23 23 23) !important;
+  border-top-color: rgb(38 38 38);
+}
+
+/* Hide theme toggle in footer */
+.hextra-custom-footer,
+.hextra-footer hr,
+.hextra-footer > .hextra-max-footer-width:first-child {
+  display: none;
+}
+
+.hextra-footer .hextra-max-footer-width {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  justify-content: center !important;
+}
+
+.hextra-footer .hx\:mt-6 {
+  margin-top: 0 !important;
+}
+
+.hextra-footer .hx\:sm\:items-start {
+  align-items: center !important;
+}
+
+
+
+.book-grid img {
+  height: 150px;
+  width: auto;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+:is(html[class~="dark"]) .book-grid img {
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.4);
+}
+
+/* Feature card CTA text */
+.card-cta {
+  font-weight: 500;
+  color: #3b82f6;
+}
+
+:is(html[class~="dark"]) .card-cta {
+  color: #60a5fa;
+}
