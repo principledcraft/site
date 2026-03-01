@@ -7,4 +7,3 @@ Built with [Hugo](https://gohugo.io/) and the [Hextra](https://github.com/imfing
 ## Contributing
 
 Feel free to open a PR or submit an issue if you want to contribute or leave a comment. I will review it, but since this is a personal project I can give no guarantee if or how fast it will be picked up.
-sed 
