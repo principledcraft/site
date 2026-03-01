@@ -52,10 +52,10 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: logo.png
+      path: android-chrome-192x192.png
       link: /
-      width: 40
-      height: 20
+      width: 55
+      height: 55
     width: wide
   theme:
     default: light
