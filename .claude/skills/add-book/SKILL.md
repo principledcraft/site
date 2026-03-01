@@ -50,6 +50,9 @@ After creating the book page, add the cover to the book grid in `content/books/_
   <a href="/books/{slug}"><img src="/images/books/{slug}.jpg" alt="{Short Title}"></a>
 ```
 
+### Humanize
+After writing the description, always run the humanizer skill on it to remove any AI writing patterns. This is mandatory, not optional. Do it automatically without being asked.
+
 Important:
 - Do not include a Reflections section. The user will add one themselves if needed.
 - After generating the book summary/description, show it to the user for verification before writing the file.

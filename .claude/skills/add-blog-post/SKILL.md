@@ -66,7 +66,7 @@ Show the draft to the user for feedback. Make any requested changes.
 
 ## Step 5: Humanize
 
-Run the humanizer skill on the final content to remove any AI writing patterns.
+Always run the humanizer skill on the final content to remove any AI writing patterns. This is mandatory, not optional. Do it automatically without being asked.
 
 ## Step 6: Save and build
 
