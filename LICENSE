@@ -1,6 +1,9 @@
+This repository contains two types of work under separate licenses.
+
+## Original Hextra theme license
+
 MIT License
 
-Copyright (c) 2026 PrincipledCraft
 Copyright (c) 2023 Xin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,12 +24,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
+## Content and assets built on top of the theme (CC BY-NC 4.0)
 
-Content License
+Applies to: all written content (principles, blog posts, book
+reflections, and the about page), as well as images, logos, and other media (including the site logo).
 
-All content, with the exception of the Hextra theme is licensed under
-Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 https://creativecommons.org/licenses/by-nc/4.0/
 
 Copyright (c) 2026 PrincipledCraft
