@@ -60,21 +60,25 @@ draft: false
 - Never use em dashes
 - Generate the slug from the title (lowercase, hyphens, no special characters)
 
-## Step 4: Review
-
-Show the draft to the user for feedback. Make any requested changes.
-
-## Step 5: Humanize
+## Step 4: Humanize
 
 Always run the humanizer skill on the final content to remove any AI writing patterns. This is mandatory, not optional. Do it automatically without being asked.
 
-## Step 6: Save and build
+## Step 5: Save, build, and let the user review in the browser
 
 1. Write the file to `content/blog/{slug}.md`
 2. Run `hugo build` to verify the site builds without errors
-3. Suggest a commit message for the new post
+3. Start the Hugo dev server (`hugo server`) if it is not already running
+4. Tell the user the local URL where they can read the post in their browser (e.g. `http://localhost:1313/blog/{slug}/`)
+5. Ask the user to review the post in the browser, then make any requested changes
+
+Do NOT show the full draft in chat first. Always write the file and build immediately so the user can read it rendered in the browser. If the user asks for changes afterwards, apply them and rebuild.
+
+## Step 6: Commit
+
+After the user is happy with the post, suggest a commit message.
 
 Important:
 - Never use em dashes (—) in the content
-- After generating the post, show it to the user for review before writing the file
+- Always write the file and build first, then let the user review in the browser
 - Match the voice and tone of the existing blog posts

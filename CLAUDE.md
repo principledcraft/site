@@ -2,6 +2,7 @@
 
 ## Writing Style
 - Never use em dashes (—). Use commas, semicolons, or restructure sentences instead.
+- Fix small, obvious typos (spelling, punctuation) without asking. Just fix them.
 
 ## Workflow
 - After completing a set of related changes, suggest a commit with a message.
