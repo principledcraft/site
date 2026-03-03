@@ -119,12 +119,24 @@ p {
   box-shadow: 0 1px 2px rgba(255, 255, 255, 0.4);
 }
 
-/* Feature card CTA text */
-.card-cta {
-  font-weight: 500;
-  color: #3b82f6;
+/* Site-wide link colour for content and CTA cards */
+:root {
+  --link-color: #92400e;
+  --link-color-dark: #fbbf24;
 }
 
-:is(html[class~="dark"]) .card-cta {
-  color: #60a5fa;
+.content a,
+.card-cta,
+main#content a[aria-label*="Read more"] {
+  color: var(--link-color) !important;
+}
+
+:is(html[class~="dark"]) .content a,
+:is(html[class~="dark"]) .card-cta,
+:is(html[class~="dark"]) main#content a[aria-label*="Read more"] {
+  color: var(--link-color-dark) !important;
+}
+
+.card-cta {
+  font-weight: 500;
 }
