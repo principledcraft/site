@@ -7,6 +7,8 @@ authors:
 draft: false
 ---
 
+{{< summary >}}
+
 I finished the implementation in about two hours. One of those stretches where everything clicked and the code came together quickly. Then I tried to deploy it. What followed was more than two days of wrestling with infrastructure. Configuration that didn't match what I expected, pipelines failing for reasons unrelated to my change and a lot of copying of configuration for different environments. A setup that clearly hadn't been designed with a smooth developer experience in mind. By the end of it, the satisfaction from those productive two hours had completely evaporated. Two hours of implementation turned into two days of frustration.
 
 It made me reconnect with my appreciation for good flow. A good flow means it's easy to add code, feedback is fast, and deployment is automated. You can do what you need to do quickly and effortlessly. You earn back the time you invested in setting up these processes. That's time you can spend making the code better, more maintainable and reliable, working on the next big ticket or helping others progress. It compounds in a way that's hard to appreciate until you've experienced both sides.

@@ -7,6 +7,8 @@ authors:
 draft: false
 ---
 
+{{< summary >}}
+
 I started my career with no formal training, just experience tinkering with websites and Arduino projects. My first job at a consulting firm as a Test Automation Engineer was formative. I was trained well in testing fundamentals, set up my first CI/CD pipeline, and saw first-hand how applying tested principles made a real difference. Approaching my work that way has felt like second nature ever since.
 
 In subsequent roles I was often surprised at how little of that structure existed elsewhere. Yet other times I found teams where purposeful engineering was ingrained in everything they did. That's when I realised that years of experience are no guarantee you'll be trained well; it depends on where you end up, who you work with, and how much you seek out on your own.

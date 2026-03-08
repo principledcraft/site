@@ -47,7 +47,11 @@ authors:
   - name: PrincipledCraft
 draft: false
 ---
+
+{{</* summary */>}}
 ```
+
+The `{{</* summary */>}}` shortcode must always appear immediately after the frontmatter, before the body text. It automatically renders the `summary` from frontmatter at the top of the post.
 
 ### Writing style
 

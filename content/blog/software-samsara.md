@@ -1,11 +1,13 @@
 ---
 title: Software samsara
 date: 2026-03-08
-summary: I studied Buddhism for a short while in college, never thought it would end up relevant to software engineering. Samsara is the cycle of death and rebirth, and software has its own version. The Buddha's answer was the Middle Way, and it turns out that applies to code too.
+summary: Software often gets rewritten when a team's composition changes or the original developers move on, an endless cycle of death and rebirth reminiscent of the Buddhist concept of samsara. But why does it happen, and how can we break the cycle?
 authors:
   - name: PrincipledCraft
 draft: false
 ---
+
+{{< summary >}}
 
 Who would have thought that studying religious sciences for a short while in college would help me better understand software engineering? In Buddhism, samsara is the cycle of death and rebirth, the soul moving from one life to the next, never quite arriving. Software has its own version: a team builds something, people leave, a new team inherits it, struggles to understand it, and eventually convinces the business to rewrite. Give it a few years and another team will be making the same case.
 

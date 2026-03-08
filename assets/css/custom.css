@@ -140,3 +140,16 @@ main#content a[aria-label*="Read more"] {
 .card-cta {
   font-weight: 500;
 }
+
+/* Blog post summary */
+.post-summary {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  font-style: italic;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+:is(html[class~="dark"]) .post-summary {
+  color: #9ca3af;
+}

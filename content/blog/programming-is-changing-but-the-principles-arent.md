@@ -7,6 +7,8 @@ authors:
 draft: false
 ---
 
+{{< summary >}}
+
 I'm still working out how to best work with AI tools. Most takes online split into *it changes everything* or *it's a parlour trick*, and I don't buy either one. My productivity has noticeably gone up. Stuff that used to eat an afternoon, scaffolding, boilerplate, first passes at tests, now takes maybe an hour. I've used it for content on this site too.
 
 It's also happy to be wrong. I've accepted suggestions that compiled, ran fine, and still introduced problems I wouldn't have written myself. It sounds sure of itself regardless of whether it's right, which makes it easy to stop checking.
