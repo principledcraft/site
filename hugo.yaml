@@ -1,6 +1,6 @@
 # Hugo configuration file
 baseURL: https://principledcraft.dev/
-title: // principled craft .dev
+title: principledcraft.dev
 
 # import hextra as module
 module:
@@ -54,10 +54,10 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: android-chrome-192x192.png
+      path: favicon-96x96.png
       link: /
-      width: 55
-      height: 55
+      width: 50
+      height: 50
     width: wide
   theme:
     default: light
